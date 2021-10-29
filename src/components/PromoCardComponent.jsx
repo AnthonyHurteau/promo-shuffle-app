@@ -3,7 +3,7 @@ import { Card, CardMedia, CardContent, Typography } from "@mui/material";
 
 export default function PromoCard(props) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345, margin: "2px" }}>
       <CardMedia
         component="img"
         height="140"

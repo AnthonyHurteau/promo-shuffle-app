@@ -1,7 +1,7 @@
 import React from "react";
 import { AppBar, Toolbar, Button } from "@mui/material";
 
-export default function NavBar() {
+export default function NavBar(props) {
   return (
     <AppBar
       position="fixed"
@@ -12,6 +12,9 @@ export default function NavBar() {
           variant="outlined"
           color="secondary"
           sx={{ position: "absolute" }}
+          onClick={() => {
+            props.setReset(true);
+          }}
         >
           <img
             src="icon_white.png"
