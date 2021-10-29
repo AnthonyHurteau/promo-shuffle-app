@@ -11,7 +11,7 @@ import {
 import CardGiftcardIcon from "@mui/icons-material/CardGiftcard";
 
 import PromoCard from "./PromoCardComponent";
-import CardHelper from "../helpers/CardHelper";
+import { getCardProps } from "../helpers/CardHelper";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -21,7 +21,7 @@ export default function PromoShuffle({ reset, setReset }) {
   const [shuffleDone, setshuffleDone] = useState(false);
   const [shuffleResult, setShuffleResult] = useState();
 
-  const cards = CardHelper.getCardProps();
+  const cards = getCardProps();
 
   function shuffle() {
     setShuffleStart(true);
@@ -62,7 +62,9 @@ export default function PromoShuffle({ reset, setReset }) {
   }, [reset, setReset]);
 
   return (
-    <Container sx={{ height: "100vh" }}>
+    <Container
+      sx={{ height: "100vh" }}
+      className={styles.imageFadeIn}>
       <Toolbar />
       <Grid
         container

@@ -16,9 +16,11 @@ function App() {
       <ThemeProvider theme={appliedTheme}>
         <CssBaseline />
         <NavBar setReset={setReset} />
-        <PromoShuffle
-          reset={reset}
-          setReset={setReset} />
+        {reset === false ? (
+          <PromoShuffle
+            reset={reset}
+            setReset={setReset} />
+        ) : null}
       </ThemeProvider>
     </Suspense>
   );

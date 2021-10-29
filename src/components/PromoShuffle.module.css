@@ -1,14 +1,14 @@
 @keyframes slide {
   0% {
-    opacity: 0.2;
+    opacity: 0;
     transform: translateX(-100%);
   }
   50% {
-    opacity: 0.5;
+    opacity: 0.6;
     transform: translateX(0%);
   }
   100% {
-    opacity: 0.2;
+    opacity: 0;
     transform: translateX(100%);
   }
 }
@@ -29,5 +29,5 @@
 
 .imageFadeIn {
   margin: auto;
-  animation: fadeIn 4s ease-in-out;
+  animation: fadeIn 2s ease-in-out;
 }

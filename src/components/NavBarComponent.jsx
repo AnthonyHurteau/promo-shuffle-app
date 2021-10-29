@@ -1,6 +1,9 @@
 import React from "react";
 import { AppBar, Toolbar, Button } from "@mui/material";
 
+import iconWhite from "../images/icon_white.png";
+import sigWhite from "../images/sig_white.png";
+
 export default function NavBar(props) {
   return (
     <AppBar
@@ -17,13 +20,13 @@ export default function NavBar(props) {
           }}
         >
           <img
-            src="icon_white.png"
+            src={iconWhite}
             alt="Logo"
             height="30"
             width="30" />
         </Button>
         <img
-          src="sig_white.png"
+          src={sigWhite}
           alt="sig"
           style={{ margin: "auto", display: "block" }}
           height="47"
