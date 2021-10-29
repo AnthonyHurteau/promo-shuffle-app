@@ -1,25 +1,36 @@
 {
   "files": {
-    "main.css": "/promo-shuffle-app/static/css/main.3ba03b87.chunk.css",
-    "main.js": "/promo-shuffle-app/static/js/main.07ef3b84.chunk.js",
-    "main.js.map": "/promo-shuffle-app/static/js/main.07ef3b84.chunk.js.map",
-    "runtime-main.js": "/promo-shuffle-app/static/js/runtime-main.9f8074ba.js",
-    "runtime-main.js.map": "/promo-shuffle-app/static/js/runtime-main.9f8074ba.js.map",
+    "main.css": "/promo-shuffle-app/static/css/main.797c301f.chunk.css",
+    "main.js": "/promo-shuffle-app/static/js/main.3f74d74b.chunk.js",
+    "main.js.map": "/promo-shuffle-app/static/js/main.3f74d74b.chunk.js.map",
+    "runtime-main.js": "/promo-shuffle-app/static/js/runtime-main.3686ff88.js",
+    "runtime-main.js.map": "/promo-shuffle-app/static/js/runtime-main.3686ff88.js.map",
     "static/css/2.ed1298f3.chunk.css": "/promo-shuffle-app/static/css/2.ed1298f3.chunk.css",
-    "static/js/2.c0446608.chunk.js": "/promo-shuffle-app/static/js/2.c0446608.chunk.js",
-    "static/js/2.c0446608.chunk.js.map": "/promo-shuffle-app/static/js/2.c0446608.chunk.js.map",
-    "static/js/3.ce931fac.chunk.js": "/promo-shuffle-app/static/js/3.ce931fac.chunk.js",
-    "static/js/3.ce931fac.chunk.js.map": "/promo-shuffle-app/static/js/3.ce931fac.chunk.js.map",
+    "static/js/2.77b094c9.chunk.js": "/promo-shuffle-app/static/js/2.77b094c9.chunk.js",
+    "static/js/2.77b094c9.chunk.js.map": "/promo-shuffle-app/static/js/2.77b094c9.chunk.js.map",
+    "static/js/3.e46246f3.chunk.js": "/promo-shuffle-app/static/js/3.e46246f3.chunk.js",
+    "static/js/3.e46246f3.chunk.js.map": "/promo-shuffle-app/static/js/3.e46246f3.chunk.js.map",
     "index.html": "/promo-shuffle-app/index.html",
     "static/css/2.ed1298f3.chunk.css.map": "/promo-shuffle-app/static/css/2.ed1298f3.chunk.css.map",
-    "static/css/main.3ba03b87.chunk.css.map": "/promo-shuffle-app/static/css/main.3ba03b87.chunk.css.map",
-    "static/js/2.c0446608.chunk.js.LICENSE.txt": "/promo-shuffle-app/static/js/2.c0446608.chunk.js.LICENSE.txt"
+    "static/css/main.797c301f.chunk.css.map": "/promo-shuffle-app/static/css/main.797c301f.chunk.css.map",
+    "static/js/2.77b094c9.chunk.js.LICENSE.txt": "/promo-shuffle-app/static/js/2.77b094c9.chunk.js.LICENSE.txt",
+    "static/media/icon_white.df2fece0.png": "/promo-shuffle-app/static/media/icon_white.df2fece0.png",
+    "static/media/image1.17ed312d.jpg": "/promo-shuffle-app/static/media/image1.17ed312d.jpg",
+    "static/media/image10.96afde7e.jpg": "/promo-shuffle-app/static/media/image10.96afde7e.jpg",
+    "static/media/image2.a49dc17a.jpg": "/promo-shuffle-app/static/media/image2.a49dc17a.jpg",
+    "static/media/image3.8ed2e087.jpg": "/promo-shuffle-app/static/media/image3.8ed2e087.jpg",
+    "static/media/image4.9fe236ed.jpg": "/promo-shuffle-app/static/media/image4.9fe236ed.jpg",
+    "static/media/image5.1df071cd.jpg": "/promo-shuffle-app/static/media/image5.1df071cd.jpg",
+    "static/media/image6.18936e71.jpg": "/promo-shuffle-app/static/media/image6.18936e71.jpg",
+    "static/media/image7.b03e60c7.jpg": "/promo-shuffle-app/static/media/image7.b03e60c7.jpg",
+    "static/media/image8.0c6347ee.jpg": "/promo-shuffle-app/static/media/image8.0c6347ee.jpg",
+    "static/media/image9.316d2af7.jpg": "/promo-shuffle-app/static/media/image9.316d2af7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9f8074ba.js",
+    "static/js/runtime-main.3686ff88.js",
     "static/css/2.ed1298f3.chunk.css",
-    "static/js/2.c0446608.chunk.js",
-    "static/css/main.3ba03b87.chunk.css",
-    "static/js/main.07ef3b84.chunk.js"
+    "static/js/2.77b094c9.chunk.js",
+    "static/css/main.797c301f.chunk.css",
+    "static/js/main.3f74d74b.chunk.js"
   ]
 }
