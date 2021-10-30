@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/promo-shuffle-app/static/css/main.797c301f.chunk.css",
-    "main.js": "/promo-shuffle-app/static/js/main.a419eab5.chunk.js",
-    "main.js.map": "/promo-shuffle-app/static/js/main.a419eab5.chunk.js.map",
+    "main.js": "/promo-shuffle-app/static/js/main.bb43d1a1.chunk.js",
+    "main.js.map": "/promo-shuffle-app/static/js/main.bb43d1a1.chunk.js.map",
     "runtime-main.js": "/promo-shuffle-app/static/js/runtime-main.3686ff88.js",
     "runtime-main.js.map": "/promo-shuffle-app/static/js/runtime-main.3686ff88.js.map",
     "static/css/2.ed1298f3.chunk.css": "/promo-shuffle-app/static/css/2.ed1298f3.chunk.css",
@@ -33,6 +33,6 @@
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.77b094c9.chunk.js",
     "static/css/main.797c301f.chunk.css",
-    "static/js/main.a419eab5.chunk.js"
+    "static/js/main.bb43d1a1.chunk.js"
   ]
 }
