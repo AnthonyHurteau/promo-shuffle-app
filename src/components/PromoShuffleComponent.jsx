@@ -63,13 +63,15 @@ export default function PromoShuffle({ reset, setReset }) {
 
   return (
     <Container
-      sx={{ height: "100vh" }}
-      className={styles.imageFadeIn}>
+      sx={{ height: "calc(100vh - 56px)", position: "relative", top: "56px" }}
+      className={styles.imageFadeIn}
+    >
       <Toolbar />
       <Grid
         container
         justifyContent="center"
         alignItems="center"
+        alignContent={shuffleStart && shuffleDone ? "center" : null}
         sx={{ height: "75%" }}
       >
         <Grid
@@ -133,14 +135,17 @@ export default function PromoShuffle({ reset, setReset }) {
         <Grid
           textAlign="center"
           item
-          xs={"auto"}
-          sm={6}>
-          <Box sx={{ width: 125, height: 65, margin: "auto" }}>
-            {shuffleStart ? (
-              shuffleDone ? null : (
+          xs="auto"
+          sm={shuffleStart && shuffleDone ? 0 : 6}
+        >
+          {shuffleStart ? (
+            shuffleDone ? null : (
+              <Box sx={{ width: 125, height: 65, margin: "auto" }}>
                 <CircularProgress color="secondary" />
-              )
-            ) : (
+              </Box>
+            )
+          ) : (
+            <Box sx={{ width: 125, height: 65, margin: "auto" }}>
               <Button
                 sx={{ width: 125, height: 65 }}
                 size="large"
@@ -152,8 +157,8 @@ export default function PromoShuffle({ reset, setReset }) {
               >
                 <CardGiftcardIcon />
               </Button>
-            )}
-          </Box>
+            </Box>
+          )}
         </Grid>
       </Grid>
     </Container>
