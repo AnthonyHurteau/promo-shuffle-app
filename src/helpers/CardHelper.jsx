@@ -24,14 +24,40 @@ const imageArray = [
 ];
 
 const promos = [
-  { title: "Promo1", description: "This is a test that describes promo1." },
-  { title: "Promo2", description: "This is a test that describes promo2." },
-  { title: "Promo3", description: "This is a test that describes promo3." },
-  { title: "Promo4", description: "This is a test that describes promo4." },
-  { title: "Promo5", description: "This is a test that describes promo5." },
-  { title: "Promo6", description: "This is a test that describes promo6." },
-  { title: "Promo7", description: "This is a test that describes promo7." },
-  { title: "Promo8", description: "This is a test that describes promo8." },
+  {
+    title: "10 minutes",
+    description: "10 minutes additionnelles à la séance actuelle.",
+  },
+  {
+    title: "15 minutes",
+    description: "15 minutes additionnelles à la séance actuelle.",
+  },
+  {
+    title: "30 minutes",
+    description:
+      "30 minutes additionnelles pour un prochain massage d'une durée de 60 minutes.",
+  },
+  {
+    title: "15$ de rabais",
+    description: "15$ de rabais sur un prochain massage.",
+  },
+  {
+    title: "20$ de rabais",
+    description: "20$ de rabais sur un prochain massage.",
+  },
+  {
+    title: "2 cartes cadeaux",
+    description:
+      "2 cartes cadeaux de 10$ applicables pour les massages suivants.",
+  },
+  {
+    title: "5$ de rabais",
+    description: "5$ de rabais sur la séance actuelle.",
+  },
+  {
+    title: "10$ de rabais",
+    description: "10$ de rabais sur la séance actuelle.",
+  },
 ];
 
 export const getCardProps = () => {
