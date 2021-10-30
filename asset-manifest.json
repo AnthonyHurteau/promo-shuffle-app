@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/promo-shuffle-app/static/css/main.797c301f.chunk.css",
-    "main.js": "/promo-shuffle-app/static/js/main.3f74d74b.chunk.js",
-    "main.js.map": "/promo-shuffle-app/static/js/main.3f74d74b.chunk.js.map",
+    "main.js": "/promo-shuffle-app/static/js/main.a419eab5.chunk.js",
+    "main.js.map": "/promo-shuffle-app/static/js/main.a419eab5.chunk.js.map",
     "runtime-main.js": "/promo-shuffle-app/static/js/runtime-main.3686ff88.js",
     "runtime-main.js.map": "/promo-shuffle-app/static/js/runtime-main.3686ff88.js.map",
     "static/css/2.ed1298f3.chunk.css": "/promo-shuffle-app/static/css/2.ed1298f3.chunk.css",
@@ -11,6 +11,8 @@
     "static/js/3.e46246f3.chunk.js": "/promo-shuffle-app/static/js/3.e46246f3.chunk.js",
     "static/js/3.e46246f3.chunk.js.map": "/promo-shuffle-app/static/js/3.e46246f3.chunk.js.map",
     "index.html": "/promo-shuffle-app/index.html",
+    "service-worker.js": "/promo-shuffle-app/service-worker.js",
+    "service-worker.js.map": "/promo-shuffle-app/service-worker.js.map",
     "static/css/2.ed1298f3.chunk.css.map": "/promo-shuffle-app/static/css/2.ed1298f3.chunk.css.map",
     "static/css/main.797c301f.chunk.css.map": "/promo-shuffle-app/static/css/main.797c301f.chunk.css.map",
     "static/js/2.77b094c9.chunk.js.LICENSE.txt": "/promo-shuffle-app/static/js/2.77b094c9.chunk.js.LICENSE.txt",
@@ -31,6 +33,6 @@
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.77b094c9.chunk.js",
     "static/css/main.797c301f.chunk.css",
-    "static/js/main.3f74d74b.chunk.js"
+    "static/js/main.a419eab5.chunk.js"
   ]
 }
